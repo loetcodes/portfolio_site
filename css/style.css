@@ -4,4 +4,42 @@
     background: #270f4a;
     background: #091d34;
     background: #434244;
+    margin: 0;
+}
+
+.menu-container {
+    background: #091d34;
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 95%;
+    margin: 8% auto;
+    display: flex;
+    text-decoration: none;
+}
+
+.img-icon {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#menu-bar {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 15%;
+    color: #f5deb3;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #f5deb3;
 }
