@@ -2,15 +2,16 @@
 <html>
 <head>
 	<title>Louisa Namisango</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="main-body">
 	<!-- NAVIGATION MENU -->
 	<div id="menu-bar">
-		<div id="main-logo" class="title-cont">
+		<a href="#home" id="main-logo" class="title-cont">
 			<img class="img-icon" src="images/social_icons/loet_wheat_logo.png" alt="loet logo">
-		</div>
+		</a>
 		<nav id="navigation">
-			<a id="logo" href="#home">Home</a>
+			<a href="#home">Home</a>
 			<a href="#about">About</a>
 			<a href="#projects">About</a>
 			<a href="#blog">Blog</a>
@@ -19,11 +20,32 @@
 	</div>
 
 	<!-- LANDING PAGE WITH SHORT INTRO -->
-	<section id="home">
+	<section id="home" class="home-section">
+		<div class="name-box">
+			<h1 class="title-name">Hi, I am Louisa</h1>
+		</div>
+		<p>Front End developer,<br>Curious Learner,<br>Lifelong Inquisitor</p>
 	</section>
 
 	<!-- ABOUT/SKILLS PAGE WITH LONGER BIO -->
-	<section id="about">
+	<section id="about" class="about-section">
+		<h2>About</h2>
+		<div class="skills-card">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit facilis? Nobis possimus beatae eveniet incidunt! Magni dolorem expedita neque at distinctio delectus non cupiditate alias vel enim, molestiae sed</p>
+		</div>
+		<div class="about-card">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit facilis? Nobis possimus beatae eveniet incidunt! Magni dolorem expedita neque at distinctio delectus non cupiditate alias vel enim, molestiae sed</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, adipisci doloremque. Impedit esse autem facere quos et, sint minima optio distinctio ullam dolores modi libero fugit earum reiciendis ducimus voluptas?</p>
+		</div>
+		<!-- <div class="about-container">
+			<div class="skills-card">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit facilis? Nobis possimus beatae eveniet incidunt! Magni dolorem expedita neque at distinctio delectus non cupiditate alias vel enim, molestiae sed</p>
+			</div>
+			<div class="about-card">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit facilis? Nobis possimus beatae eveniet incidunt! Magni dolorem expedita neque at distinctio delectus non cupiditate alias vel enim, molestiae sed</p>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, adipisci doloremque. Impedit esse autem facere quos et, sint minima optio distinctio ullam dolores modi libero fugit earum reiciendis ducimus voluptas?</p>
+			</div>
+		</div> -->
 	</section>
 
 	<!-- PROJECTS PAGE CONTAINER -->
@@ -173,6 +195,7 @@
 
 	<!-- CONTACT PAGE WITH QUICK LINKS-->
 	<section id="contact">
+		<h2>Contact</h2>
 		<!-- FORM WITH NAME, EMAIL AND MESSAGE TO BE SENT -->
 		<form id="message-form"></form>
 		<div class="contact-links">
@@ -186,7 +209,7 @@
 				<img class="social-icon" src="images/social_icons/github-light-wheat-40px.png" alt="Github link">
 			</a>
 			<a class="social-link" href="https://codepen.io/lulet" title="codepen">
-				<img class="social-icon" src="images/social_icons/codepen-light-wheat-unfilled-40px.png" alt="Codepen link">
+				<img class="social-icon" src="images/social_icons/codepen-light-wheat-filled-40px.png" alt="Codepen link">
 			</a>
 		</div>
 
