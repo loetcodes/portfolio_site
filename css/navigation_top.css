@@ -2,6 +2,8 @@
 
 .menu-container {
     background: #091d34;
+    background: #1e0333;
+    background: #0f1210;
     text-decoration: none;
 }
 
@@ -51,6 +53,7 @@
     flex-direction: row;
     /* height: 90%; */
     width: 80%;
+    max-width:750px;
     margin: auto;
     margin-right: 0%;
     font-size: 2.0vw;
@@ -67,9 +70,8 @@
     width: fit-content;
     /* background: rgb(63, 2, 2); */
     padding: 2% 3%;
-    padding-bottom: 0%;
 }
 
 .menu-links a:hover {
-    background: #000;
+    background: #192e28;
 }
