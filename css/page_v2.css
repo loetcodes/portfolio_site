@@ -66,29 +66,29 @@ h3 {
 }
 
 .section-box {
-    margin: 15% auto;
-    padding-top: 20%;
+    margin: 5% auto;
+    padding-top: 0%;
     display: block;
+}
 
+.section-row {
+    display: grid;
+    grid-template-columns: 40% 10% 44%;
+    column-gap: 3%;
+    row-gap: 10%;
+    margin: 16% 2%;
 }
 
 .about-section {
-    /* margin: 10% auto;
-    padding-top: 10%; */
-    padding-bottom: 25%;
-    display: grid;
-    grid-template-columns: 5% 36% 10% 36% 5%;
-    grid-template-rows: minmax(10%, auto);
-    grid-gap: 2%; 
-    grid-row-gap: 5%;
-    grid-auto-rows: max-content;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
 }
 
 .about-section p {
     font-size: 1.2rem;
     font-size: 2.8vmin;
 }
-
 
 .section-title {
     font-weight: 700;
@@ -103,14 +103,15 @@ h3 {
 
 .about-title {
     grid-row: 1;
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: 5%;
 }
 
 .about-card {
     grid-row: 2;
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .card-margin {
@@ -127,140 +128,86 @@ h3 {
 }
 
 .skills-title {
-    grid-row: 3;
-    grid-column: 4;
+    grid-row: 1;
+    grid-column: 3;
     letter-spacing: 0px;
 }
 
-.skills-card {
-    grid-row: 3;
+.core-title {
+    grid-row: 1;
+    grid-column: 1;
+    letter-spacing: 0px;
+    margin-left: 1rem;
+}
+
+.interests-title {
+    grid-row: 1;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
+    overflow-wrap: break-word;
+    margin-left: 1rem;
+}
+
+.skills-card {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
     width: -webkit-fill-available;
     background: #444101;
     background: #440101;
     color: #f5deb3;
-    margin-left:1.7rem;
+    margin-left: 0.6rem;
     font-size: 1.8em;
     font-size: 3.5vmin;
 }
 
 .items-list {
     padding-top: 10%;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+
+.list-item {
     padding-bottom: 10%;
-    padding-left: 10%;
 }
 
 .skills-list {
     padding-left: 26%;
+    padding-bottom: 10%;
     font-size: 1.6em;
     font-size: 5vmin;
     text-transform: uppercase;
 }
 
-.values-list {
-    font-size: 1.6em;
-    font-size: 4vmin;
-
-}
-
-.core-title {
-    grid-row: 4;
-    grid-column: 2;
-    /* overflow-wrap: break-word; */
-}
-
-.values-card {
-    grid-row: 4;
+.core-card {
+    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: 4;
     width: -webkit-fill-available;
     color: #f5deb3;
-    margin-left:1.5rem;
     font-size: 1.8em;
     font-size: 3.5vmin;
-    background: #44013d;
+    background: #2f002b;
 }
 
+.core-list {
+    font-size: 1.0em;
+    font-size: 3.5vmin;
+}
 
-.interests-title {
-    grid-row: 5;
+.interests-list {
+    font-size: 1.4em;
+    font-size: 3.0vmin;
+}
+
+.interests-card {
+    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
     grid-column-start: 2;
-    grid-column-end: 5;
-    grid-column: 2;
-    overflow-wrap: break-word;
-}
-
-.personal-card {
-    grid-row: 5;
-    grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 4;
     background: #1c0142;
 }
 
-/* 
-.card-title {
-    grid-row: 3;
-    grid-column: 2;
-}
-
-.skills-sect {
-    grid-row:2;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.core-sect {
-    grid-row:3;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-
-.skills-card {
-    width: -webkit-fill-available;
-    grid-row: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 1.8em;
-    font-size: 3.5vmin;
-    background: #444101;
-    color: #f5deb3;
-    margin-left:1.5rem;
-}
-
-.about-section .card-title {
-    font-size: 1.1em;
-    font-size: 3.5vmin;
-}
-
-.main-skills-list {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 25%;
-    font-size: 1.6em;
-    font-size: 5vmin;
-    text-transform: uppercase;
-}
-
-.about-card {
-    margin: auto;
-    grid-row: 2;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    font-size: 1.2rem;
-    font-size: 2.8vmin;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.learning-card {
-    grid-row: 4;
-    grid-column: 2;
-}
-
-.personal-card {
-    grid-row: 4;
-    grid-column: 3;
-} */
