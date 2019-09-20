@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Louisa Namisango</title>
+	<title>Loet Projects</title>
 	<!-- <link rel="stylesheet" href="css/navigation_left.css"> -->
 	<link rel="stylesheet" href="css/navigation_top.css">
-	<link rel="stylesheet" href="css/page_v2.css">
+	<link rel="stylesheet" href="css/projects_page.css">
 </head>
 <body class="main-body">
-	<!-- NAVIGATION MENU -->
+
+	<!-- MAIN PORTFOLIO NAVIGATION MENU -->
 	<div id="menu-bar" class="menu-container">
 		<a href="#home" id="main-logo" class="brand-logo">
 			<img class="img-icon" src="images/social_icons/loet_wheat_logo.png" alt="loet logo">
 		</a>
 		<nav id="navigation" class="menu-links">
-			<!-- <a href="#home">Home</a> -->
-			<a href="#about">About</a>
-			<a href="#projects">Projects</a>
-			<a href="#blog">Blog</a>
-			<a href="#contact">Contact</a>
+			<a href="index.html#about">About</a>
+			<a href="index.html#projects">Projects</a>
+			<a href="index.html#blog">Blog</a>
+			<a href="index.html#contact">Contact</a>
 		</nav>
 	</div>
 
-	<div class="transparent-bar"></div>
-
-	<!-- LANDING PAGE WITH SHORT INTRO -->
-	<section id="home" class="section-box home-section">
-		<div class="name-box">
-			<h1 class="title-name">Hello<br> I'm Louisa</h1>
+	<!-- FIRST PROJECT -->
+	<section id="mastermind-gems">
+		<!-- Project Landing View -->
+		<div class="home-section project-home">
+			<div class="hero-left">
+				<div class="project-heading">
+					<h2 class="project-title">MasterMind Gems</h2>
+					<p class="project-subtitle">A reimagining of the classic board game MasterMind.</p>
+				</div>
+			</div>
+			<div class="hero-right">
+				<img class="project-img" src="images/project_imgs/MM/DemoPic_05_5_Board.png" alt="project thumbnail">
+			</div>
 		</div>
-		<p class="intro-subtitle">Front End Developer<br>Curious Learner<br>Lifelong Inquisitor</p>
+
+		<!-- Project details View -->
+		<div class="project-details">
+			<div class="info-column">
+				<h3>Technologies</h3>
+				<p class="descr-text tech-text">HTML5, CSS3, JavaScript, Heroku</p>
+			</div>
+			<div class="info-column main-info">
+				<h3>Details</h3>
+				<p class="descr-text">
+					Web-based gaming project. The aim of this project was to learn more about the HTML5 canvas property with regards to drawing multiple dynamic graphics. <br> Staying true to the original game, this web-based version is optimized to fit any screen on initial startup, giving the player a view of the entire board at once.</p>
+			</div>
+			<div class="info-column">
+				<h3>Links</h3>
+				<p class="descr-text">View <a class="text-link" target="_blank" href="https://mastermind-gems.herokuapp.com">Game</a></p>
+			</div>
+		</div>
+
+		<!-- Projects Image Samples and GIFs -->
+		<div class="project-previews">
+			<div class="img-slider">
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_01_MenuPg.png" alt="Project Menu Page">
+				</div>
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_03_InstructionsPg.png" alt="Project Menu Page">
+				</div>
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_05_4_Board.png" alt="Project Menu Page">
+				</div>
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_06_HintsView.png" alt="Project Menu Page">
+				</div>
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_05_6_Board.png" alt="Project Menu Page">
+				</div>
+				<div class="img-card">
+					<img src="images/project_imgs/MM/DemoPic_07_GameWon_3Stars.png" alt="Project Menu Page">
+				</div>
+
+			</div>
+		</div>
+				
 	</section>
 
-	<!-- ABOUT/SKILLS PAGE WITH LONGER BIO -->
-	<section id="about" class="about-section section-box">
-		<div class="section-row summary-container">
-			<h2 class="section-title about-title">I am. . .</h2>
-			<div class="about-card card-margin">
-				<!-- <p>Louisa Namisango,<br><br> also known as loet, the brand under which i develop and explore creative possibilities on the web.<br></p> -->
-				<p>Louisa Namisango,<br><br> also known as loet, a curious developer who spends her time exploring creative possibilities on and off the web.<br></p>
-				<p><br>I am passionate about creating solutions, exploring developing  trends in web development and creating simple yet user friendly websites and applications.</p>
-			</div>
-		</div>
 
-		<div class="section-row skills-container">
-			<h3 class="skills-title card-title">skilled in</h3>
-			<div class="skills-card">
-				<ul class="items-list skills-list">
-					<li class="list-item">HTML5</li>
-					<li class="list-item">CSS3</li>
-					<li class="list-item">Python</li>
-					<li class="list-item">JavaScript</li>
-					<li class="list-item">GIT</li>
-				</ul>
-			</div>
-		</div>
 
-		<div class="section-row core-container">
-			<h3 class="core-title card-title">I do value</h3>
-			<div class="core-card">
-				<ul class="items-list core-list">
-					<li class="list-item">Learning &amp; teaching cultures</li>
-					<li class="list-item">Collaboration &amp; Inclusivity</li>
-					<li class="list-item">Problem-Solving</li>
-					<li class="list-item">Creative Responsibility</li>
-				</ul>
-			</div>
-		</div>
 
-		<div class="section-row interests-container">
-			<h3 class="interests-title card-title">Interested in</h3>
-			<div class="interests-card">
-				<ul class="items-list interests-list">
-					<li class="list-item">Collaborating to create modern software solutions</li>
-					<li class="list-item">Working on challenging projects</li>
-					<li class="list-item">Learning through immersion </li>
-					<li class="list-item">Continuous Discovery &amp; Continuous Investigation in &amp; out of the digital space</li>
-					<li class="list-item">Opportunities to keep discovering just how much more i do not know...</li>
-				</ul>
-			</div>
-		</div>
-	</section>
 
-	<!-- PROJECTS PAGE CONTAINER -->
-	<section id="projects" class="section-box project-section">
+
+
+
+	<!-- PROJECTS DESCRIPTIONS DETAILS CONTAINER -->
+	<!-- <section id="details" class="section-box project-section">
 		<h2 class="section-title">Projects</h2>
 		<div class="project-container">
-			<!-- PROJECT 1 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -104,7 +110,7 @@
 				</div>
 			</div>
 
-			<!-- PROJECT 2 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -120,11 +126,10 @@
 							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
 						</a>
 					</div>
-					<!-- <a class="link-button" target="_blank">See Code</a> -->
 				</div>
 			</div>
 
-			<!-- PROJECT 3 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -139,12 +144,11 @@
 						<a class="link-button" href="javascript:void(0)">
 							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
 						</a>
-						<!-- <a class="link-button" target="_blank">See Code</a> -->
 					</div>
 				</div>
 			</div>
 
-			<!-- PROJECT 4 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -159,12 +163,11 @@
 						<a class="link-button" href="javascript:void(0)">
 							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
 						</a>
-						<!-- <a class="link-button" target="_blank">See Code</a> -->
 					</div>
 				</div>
 			</div>
 
-			<!-- PROJECT 5 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -183,7 +186,7 @@
 				</div>
 			</div>
 
-			<!-- PROJECT 6 -->
+			
 			<div class="project-card">
 				<div class="project-thumbnail">
 					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
@@ -200,36 +203,18 @@
 			</div>
 		</div>
 
-	</section>
+	</section> -->
 
 
 
-	<!-- BLOG PAGE POSTS -->
-	<!-- Excerpt from some posts on the blog, for more, link to blog -->
-	<section id="blog">
-		<h2 class="section-title">Some Blog Posts</h2>
-		<article class="blog-post">
-			<h3 class="content-title">Blog title</h3>
-			<p class="text-item">Source:</p>
-			<a class="link-button">See Post</a>
-		</article>
-		<article class="blog-post">
-			<h3 class="content-title">Blog title</h3>
-			<p class="text-item">Source:</p>
-			<a class="link-button">See Post</a>
-		</article>
-		<article class="blog-post">
-				<h3 class="content-title">Blog title</h3>
-				<p class="text-item">Source:</p>
-				<a class="link-button">See Post</a>
-			</article>
-	</section>
-
+	
+	
+	<!-- FOOTER WITH LINKS -->
+	
 
 	<!-- CONTACT PAGE WITH QUICK LINKS-->
 	<section id="contact">
 		<h2 class="section-title">Contact</h2>
-		<!-- FORM WITH NAME, EMAIL AND MESSAGE TO BE SENT -->
 		<form id="message-form"></form>
 		<div class="contact-links">
 			<a class="social-link" href="https://twitter.com/luizoutlets" title="twitter">
@@ -245,7 +230,6 @@
 				<img class="social-icon" src="images/social_icons/codepen-light-wheat-filled-40px.png" alt="Codepen link">
 			</a>
 		</div>
-
 	</section>
 
 </body>
