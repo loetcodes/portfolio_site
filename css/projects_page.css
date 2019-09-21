@@ -79,6 +79,9 @@ li {
         background: #616161;
         background: #f1f0ec;
         background: #ed403a;
+        background-color: #171149;
+        padding: 2% 0;
+        box-shadow: 0px 2px 6px 2px #0000005c;
     }
 
     .info-column {
@@ -87,24 +90,26 @@ li {
         margin: 2% 5%;
         font-size: 22px;
         line-height: 1.8rem;
+        letter-spacing: 0.5px;
     }
 
-    .main-info {
+    .detail-col {
         width: 100%;
         margin: 2% 5%;
     }
 
     .info-column h3 {
-        color: #000;
+        color: #f5deb3;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 100%;
+        letter-spacing: 2px;
     }
 
     .info-column .descr-text {
         overflow-wrap: normal;
         color: #fff;
-        font-size: 90%;
+        font-size: 85%;
     }
 
     .info-column .tech-text {
@@ -113,22 +118,66 @@ li {
 
     .project-previews {
         width: 100%;
-        background: #000;
+        position: relative;
         /* height: max-content; */
     }
 
+    .project-previews .vertical-lines {
+        background: #262626;
+        background: #1e1e1c;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+    }
+    
+    .vertical-lines span {
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #68657a;
+        background-color: #000000;
+        transition-delay: 0.5s;
+        transition: height 0.8s ease-in-out;
+        /* opacity: 0.4; */
+    }
+
+    .vertical-lines span.line1 {
+        left: 3%;
+        transition: height 0.8s ease-in-out;
+    }
+
+    .vertical-lines span.line2 {
+        left: 34%;
+        transition: height 0.8s ease-in-out;
+    }
+
+    .vertical-lines span.line3 {
+        left: 66%;
+        transition: height 0.8s ease-in-out;
+    }
+
+    .vertical-lines span.line4 {
+        left: 96.9%;
+        transition: height 0.8s ease-in-out;
+    }
+
     .img-slider {
-        width: 95%;
+        width: 94%;
         display: -webkit-box;
         -webkit-box-align: center;
         overflow-x: scroll;
         margin: auto;
-        padding: 5% 0;
+        padding: 8% 0;
     }
 
     .img-card {
-        width: 45%;
-        margin: auto 5%;
+        width: 42%;
+        margin: auto 4%;
         /* height: 100%; */
         /* height: auto; */
     }
@@ -136,7 +185,69 @@ li {
     .img-card img {
         width: 100%;
         height: auto;
-        margin: auto 2%;
+        margin: auto;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        filter: drop-shadow(2px 6px 6px #000);
+    }
+
+    .p-demo-container {
+        width: 100%;
+        padding: 8% 0;
+        margin: auto;
+    }
+
+    .p-demo-container img {
+        width: 45%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .project-links {
+        width: 100%;
+        padding: 5% 0;
+        font-size: 22px;
+        line-height: 1.8rem;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .p-links-title {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .p-links-title h3 {
+        font-size: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 4% 0;
+    }
+
+    .p-links-title p {
+        font-size: 85%;
+    }
+
+    .p-links-container {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 5% 0;
+    }
+
+    .single-project-link p {
+        font-size: 80%;
+    }
+    
+    .single-project-link .external-link img {
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        margin: auto;
     }
 
 }
