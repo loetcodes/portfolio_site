@@ -3,6 +3,7 @@
 <head>
 	<title>Louisa Namisango</title>
 	<!-- <link rel="stylesheet" href="css/navigation_left.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/navigation_top.css">
 	<link rel="stylesheet" href="css/page.css">
 </head>
@@ -16,66 +17,85 @@
 			<!-- <a href="#home">Home</a> -->
 			<a href="#about">About</a>
 			<a href="#projects">Projects</a>
-			<a href="#blog">Blog</a>
+			<a href="#blog.html">Blog</a>
 			<a href="#contact">Contact</a>
 		</nav>
 	</div>
 
-	<div class="transparent-bar"></div>
+	<!-- <div class="transparent-bar-1"></div> -->
+
+	<div class="vertical-lines">
+		<span class="line-span line1"></span>
+		<span class="line-span line2"></span>
+		<span class="line-span line3"></span>
+		<span class="line-span line4"></span>
+	</div>
 
 	<!-- LANDING PAGE WITH SHORT INTRO -->
-	<section id="home" class="home-section">
+	<section id="home" class="section-box home-section">
 		<div class="name-box">
 			<h1 class="title-name">Hello<br> I'm Louisa</h1>
 		</div>
-		<p class="intro-subtitle">Front End Developer<br>Curious Learner<br>Lifelong Inquisitor</p>
+		<p class="intro-subtitle">A Front End Developer, Curious Creator and Life-long learner. . .</p>
 	</section>
 
+
 	<!-- ABOUT/SKILLS PAGE WITH LONGER BIO -->
-	<section id="about" class="section-box">
-		<div class="about-section">
+	<section id="about" class="about-section section-box">
+		<div class="summary-container">
 			<h2 class="section-title about-title">I am. . .</h2>
-			<div class="about-card card-margin">
-				<p>A Front End developer with an eye for detail, user-friendly design and modern trends in web development</p>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, adipisci doloremque. Impedit esse autem facere quos et, sint minima optio distinctio ullam dolores modi libero fugit earum reiciendis ducimus voluptas?</p>
+			<div class="about-card card-margin text-container">
+				<div class="curly-brace-open"></div>
+				<p>A multi-disciplinary front-end developer who enjoys <span class="key-word" > creating fun and functional things on the web</span>, and solving problems using tech. <br><br>I typically work on front-end web development but dabble in the back-end from time to time. <br><br>Loet is an outlet through which I learn, develop and grow by creating, destroying and mending things on the web!</p>
+
+				<!-- <p>A multi-disciplinary front-end developer who enjoys <span class="key-word" >solving problems</span> using technology. I typically work on front-end but dabble in the back-end as well. <br><br> I'm interested in <span class="key-word" >collaborating</span> on creating web applications, with responsive ui/ux design in mind.<br><br> Loet is an outlet through which I learn, develop and grow by creating, destroying and mending things on the web!</p> -->
+
+				<!-- <p>A multi-disciplinary front-end developer who enjoys <span class="key-word" >solving problems</span> using technology. I'm interested in <span class="key-word" >collaborating</span> on creating web applications, with responsive ui/ux design in mind.<br><br> Loet is an outlet through which I learn, develop and grow by creating, destroying and mending things on the web!</p> -->
+				<div class="curly-brace-close"></div>
 			</div>
-	
-			<h3 class="skills-title card-title">skilled in</h3>
+			
+		</div>
+
+		<div class="section-row skills-container">
+			<h3 class="skills-title card-title">skills include</h3>
 			<div class="skills-card">
-				<ul class="skills-list items-list">
+				<ul class="items-list skills-list">
 					<li class="list-item">HTML5</li>
 					<li class="list-item">CSS3</li>
-					<li class="list-item">Python</li>
 					<li class="list-item">JavaScript</li>
+					<li class="list-item">Python</li>
 					<li class="list-item">GIT</li>
 				</ul>
+				<div class="background-text"><p>Responsive Design</p></div>
 			</div>
-	
+			<!-- <div class="background-text"><p>Details</p></div> -->
+			<!-- <div class="background-text"><p>Responsive Design</p></div> -->
+		</div>
+
+		<div class="section-row core-container">
 			<h3 class="core-title card-title">I do value</h3>
-			<div class="values-card">
-				<ul class="values-list items-list">
-					<li class="list-item">A learning &amp; teaching culture</li>
-					<li class="list-item">Collaboration &amp; Inclusivity</li>
-					<li class="list-item">Problem-Solving</li>
+			<div class="core-card">
+				<ul class="items-list core-list text-container">
+					<li class="list-item">Learning, teaching, collaborative and inclusive environments</li>
+					<li class="list-item">Opportunities for personal growth &amp; self-learning through Continuous Investigation &amp; Continuous Discovery of just how much I do not know.</li>
 					<li class="list-item">Creative Responsibility</li>
 				</ul>
 			</div>
-	
+		</div>
+
+		<div class="section-row interests-container">
 			<h3 class="interests-title card-title">Interested in</h3>
-			<div class="personal-card">
-				<ul class="values-list items-list">
-					<li class="list-item">Collaborating to create modern software solutions</li>
-					<li class="list-item">Working on challenging projects</li>
-					<li class="list-item">Learning through immersion </li>
-					<li class="list-item">Continuous Discovery &amp; Continuous Investigation in &amp; out of the digital space</li>
-					<li class="list-item">Opportunities to keep discovering just how much more i do not know...</li>
+			<div class="interests-card">
+				<ul class="items-list interests-list text-container">
+					<li class="list-item">Creating amazing web applications that are responsive, user-friendly and functional.</li>
+					<li class="list-item">Work on challenging software development projects that not only sharpen my skills but further them, opening new rooms for their expansion.</li>
+					<li class="list-item">Growth - I am all about growing!</li>
 				</ul>
 			</div>
-
 		</div>
-		
-		
+
 	</section>
+
 
 	<!-- PROJECTS PAGE CONTAINER -->
 	<section id="projects" class="section-box project-section">
@@ -83,166 +103,159 @@
 		<div class="project-container">
 			<!-- PROJECT 1 -->
 			<div class="project-card">
-				<h3 class="content-title">Project Name</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Description</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt excepturi facilis debitis perferendis, aut assumenda modi corporis odit sint ducimus molestiae hic mollitia numquam culpa soluta cum sit. Dignissimos, molestias.</p>
-						<div class="links-container">
-							<a class="link-button" target="_blank">See Demo</a>
-							<a class="link-button" target="_blank">See Code</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
+				<div class="project-thumbnail">
+					<img class="project-img" src="images/thumbnails/green_white_coverImage.jpg" alt="image from the project">
+				</div>
+				<h3 class="project-title">Friends Music Generator</h3>
+				<div class="project-content text-container">
+					<p>Automatic music playlist generator based on friends Spotify playlists.</p>
+					<!-- <p>Technologies: #Spotify Web API, HTML5, CSS3, VanillaJS, NodeJS</p> -->
+				</div>
+				<div class="links-container">
+					<div class="more-link">
+						<a class="link-button" href="javascript:void(0)">
+							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
+						</a>
 					</div>
 				</div>
 			</div>
 
 			<!-- PROJECT 2 -->
 			<div class="project-card">
-				<h3 class="content-title">Project Name</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Description</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit obcaecati, vitae aspernatur, voluptatem veniam ullam fugit sapiente distinctio perferendis reiciendis at repellat. Quasi, maiores porro? Possimus corporis dolorum velit.</p>
-						<div class="links-container">
-							<a class="link-button" target="_blank">See Demo</a>
-							<a class="link-button" target="_blank">See Code</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
+				<div class="project-thumbnail">
+					<img class="project-img" src="images/project_imgs/MasterMind/MM_CoverImage.png" alt="image from the project">
+				</div>
+				<h3 class="project-title">MasterMind Gems</h3>
+				<div class="project-content text-container">
+					<p>A single player web based recreation of the classic board game Mastermind.</p>
+				</div>
+				<div class="links-container">
+					<div class="more-link">
+						<a class="link-button" href="projects.html#mastermind-gems">
+							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
+						</a>
 					</div>
 				</div>
 			</div>
 
 			<!-- PROJECT 3 -->
 			<div class="project-card">
-				<h3 class="content-title">Project Name</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Description</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil similique debitis. Quibusdam, id nihil! Deleniti, unde id amet ullam culpa, eligendi fugiat reiciendis neque, fuga officia ipsam rem dolor.</p>
-						<div class="links-container">
-							<a class="link-button" target="_blank">See Demo</a>
-							<a class="link-button" target="_blank">See Code</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
+				<div class="project-thumbnail">
+					<img class="project-img" src="images/project_imgs/BlogApp/BlogApp_CoverImage.jpg" alt="image from the project">
+				</div>
+				<h3 class="project-title">DecodeSpace</h3>
+				<div class="project-content text-container">
+					<p>Blogging application</p>
+				</div>
+				<div class="links-container">
+					<div class="more-link">
+						<a class="link-button" href="projects.html#blogging-app">
+							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
+						</a>
+						<!-- <a class="link-button" target="_blank">See Code</a> -->
 					</div>
 				</div>
 			</div>
 
 			<!-- PROJECT 4 -->
 			<div class="project-card">
-				<h3 class="content-title">Project Name</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Description</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non, sint aliquid, magni laboriosam at sequi saepe, blanditiis ex officia animi corrupti voluptas nulla consequuntur ad facere voluptatem! Ipsa, iste?</p>
-						<div class="links-container">
-							<a class="link-button" target="_blank">See Demo</a>
-							<a class="link-button" target="_blank">See Code</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
+				<div class="project-thumbnail">
+					<img class="project-img" src="images/project_imgs/FringeMemory/FringeMemory_CoverImage.png" alt="image from the project">
+				</div>
+				<h3 class="project-title">Fringe Game</h3>
+				<div class="project-content text-container">
+					<p>Desktop memory game based on the TV show Fringe.
+					</p>
+				</div>
+				<div class="links-container">
+					<div class="more-link">
+						<a class="link-button" href="projects.html#fringe-memory">
+							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
+						</a>
 					</div>
 				</div>
 			</div>
 
 			<!-- PROJECT 5 -->
 			<div class="project-card">
-				<h3 class="content-title">Project Name</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Description</p>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ipsum recusandae quas, temporibus ullam fugit exercitationem soluta! Iusto vel asperiores, sequi reprehenderit suscipit explicabo, harum nam quo eum voluptatibus cum.</p>
-						<div class="links-container">
-							<a class="link-button" target="_blank">See Demo</a>
-							<a class="link-button" target="_blank">See Code</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
+				<div class="project-thumbnail">
+					<img class="project-img" src="images/project_imgs/FringeScreenShot.png" alt="image from the project">
+				</div>
+				<h3 class="project-title">My Planner</h3>
+				<div class="project-content text-container">
+					<p>Planner and calendar mobile/web app with user features, alarm sharing and group notifications.</p>
+				</div>
+				<div class="links-container">
+					<div class="more-link">
+						<a class="link-button" href="javascript:void(0)">
+							<img class="arrow-link" src="images/icons/right_arrow_wheat.png">
+						</a>
 					</div>
 				</div>
 			</div>
-
-			<!-- PROJECT 6 -->
-			<div class="project-card">
-				<h3 class="content-title">More</h3>
-				<div class="content-items">
-					<div class="project-descr">
-						<p>Wow if you've made it this far and want to see more, check out other projects on the platforms below</p>
-						<div class="links-container">
-							<!-- GitHub link -->
-							<a class="link-button" target="_blank">
-								<img class="social-icon" src="images/social_icons/GitHub_Logo_White.png" alt="GitHub link">		
-							</a>
-							<!-- Codepen link -->
-							<a class="link-button" href="https://codepen.io/lulet" title="codepen" target="_blank">
-								<img src="images/social_icons/codepen-wordmark-white.png" alt="Codepen link">
-							</a>
-						</div>
-					</div>
-					<div class="project-img">
-						<img src="images/" alt="image from the project">
-					</div>
-				</div>
-			</div>
-
 		</div>
 
-	</section>
+		<!-- MORE PROJECTS LINKS-->
+		<div class="more-p-card">
+			<h3 class="more-p-title">More<br>Projects</h3>
+			<div class="more-p-content text-container">
+				<p>To explore some more unfiltered works, head over to github or codepen.<br>Spoiler Alert: Some are pretty brutal!</p>
+			</div>
+			<div class="more-p-links text-container">
+				<a href="https://codepen.io/loetcodes" target="_blank" title="Codepen">CodePen
+				</a>
+				<a href="https://github.com/loetcodes" target="_blank" title="GitHub">GitHub
+				</a>
+			</div>
+		</div>
 
-
-
-	<!-- BLOG PAGE POSTS -->
-	<!-- Excerpt from some posts on the blog, for more, link to blog -->
-	<section id="blog">
-		<h2 class="section-title">Some Blog Posts</h2>
-		<article class="blog-post">
-			<h3 class="content-title">Blog title</h3>
-			<p class="text-item">Source:</p>
-			<a class="link-button">See Post</a>
-		</article>
-		<article class="blog-post">
-			<h3 class="content-title">Blog title</h3>
-			<p class="text-item">Source:</p>
-			<a class="link-button">See Post</a>
-		</article>
-		<article class="blog-post">
-				<h3 class="content-title">Blog title</h3>
-				<p class="text-item">Source:</p>
-				<a class="link-button">See Post</a>
-			</article>
 	</section>
 
 
 	<!-- CONTACT PAGE WITH QUICK LINKS-->
-	<section id="contact">
-		<h2 class="section-title">Contact</h2>
-		<!-- FORM WITH NAME, EMAIL AND MESSAGE TO BE SENT -->
-		<form id="message-form"></form>
-		<div class="contact-links">
-			<a class="social-link" href="https://twitter.com/luizoutlets" title="twitter">
-				<img class="social-icon" src="images/social_icons/twitter-light-wheat-40px.png" alt="Twitter link">
-			</a>
-			<a class="social-link" href="mailto:luletco@gmail.com" title="mail">
-				<img class="social-icon" src="images/social_icons/mail-light-wheat-40px.png" alt="email link">
-			</a>
-			<a class="social-link" href="https://github.com/lulets" title="github">
-				<img class="social-icon" src="images/social_icons/github-light-wheat-40px.png" alt="Github link">
-			</a>
-			<a class="social-link" href="https://codepen.io/lulet" title="codepen">
-				<img class="social-icon" src="images/social_icons/codepen-light-wheat-filled-40px.png" alt="Codepen link">
-			</a>
+	<section id="contact" class="section-box">
+		<h2 class="section-title">Say Hi...</h2>
+		<div class="contact-form-box">
+			<div class="contact-text text-container">
+				<p>I would love to hear from you! <br> Send me a message below, or use any my social links if you prefer.</p>
+			</div>
+			<div class="form-box">
+				<form id="form" class="contact-form" action="https://www.freecodecamp.com/email-submit">
+					<label for="name" class="form-entry">Name <br>
+						<input name="name" id="name" type="text" class="txt-box" placeholder="&nbsp&nbsp;Your name" required><br>
+					</label>
+					<label for="email" class="form-entry">Email <br>
+						<input name="email" id="email" type="email" class="txt-box" placeholder="&nbsp&nbsp;Your email" required><br>
+					</label>
+					<label for="message" class="form-entry">Message<br>
+						<textarea name="message" id="message" type="textarea" class="txt-box" placeholder="&nbsp;" required></textarea><br>
+					</label><br>
+					<input class="btn" id="submit" type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
 
 	</section>
+
+	<!-- FOOTER WITH TEXT LINKS -->
+	<footer id="footer-profile" class="page-footer">
+		<span class="copyright-info">&#169; Loet 2019</span>
+		<!-- SOCIAL ICONS  -->
+		<div class="contact-links">
+			<a class="social-link" href="https://twitter.com/loetcodes" title="twitter">
+				<img class="social-icon" src="images/social_icons/twitter-light-wheat-40px.png" alt="Twitter link">
+			</a>
+			<!-- <a class="social-link" href="mailto:luletco@gmail.com" title="mail">
+				<img class="social-icon" src="images/social_icons/mail-light-wheat-40px.png" alt="email link">
+			</a> -->
+			<a class="social-link" href="https://github.com/loetcodes" title="github">
+				<img class="social-icon" src="images/social_icons/github-light-wheat-40px.png" alt="Github link">
+			</a>
+			<a class="social-link" href="https://codepen.io/loetcodes" title="codepen">
+				<img class="social-icon" src="images/social_icons/codepen-light-wheat-filled-40px.png" alt="Codepen link">
+			</a>
+		</div>
+	</footer>
 
 </body>
 </html>
